@@ -51,7 +51,8 @@ body {
   border-radius: 10px;
   backface-visibility: hidden;
   overflow-y: scroll;
-  background: #fafafa;
+  overflow-x: hidden;
+  background: #ffffff;
   color: #000000;
   text-align: center;
   transform: rotateY(180deg);
@@ -64,7 +65,7 @@ body {
 
 .backside:hover{
 background-color: #000000;
-box-shadow: 0 0 25px 40px rgba(0, 0, 0, 0.473);
+box-shadow: 0 0 25px 40px rgba(0, 0, 0, 0.658);
 color:#fafafa;
 transition: 4s;
 
@@ -77,7 +78,7 @@ img {
 }
 
 
-h1.T {
+.T {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight:bold;
     font-size: 25px;
@@ -88,3 +89,53 @@ p {
     margin:20px;
     font-family:cursive;
 }
+
+
+
+    ul.KK {
+        list-style-type: none; 
+        padding: 0;
+        overflow:hidden;
+        background-image:url("../assets/gifbackground.gif");
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        text-align:center;
+        margin-top:105px;
+        text-decoration: none;
+}
+
+li.KK {
+    float:left;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    padding: 20px;
+    text-decoration:none;
+  }
+
+  li a:hover {
+    background-color: #25252554;
+    border-radius: 20px;
+    background-size: 5px 20px;
+    
+  }
+  
+  li {
+    font-family:cursive;
+    text-align: left;
+    text-decoration:none;
+
+  }
+  a:link{
+    color: rgb(87, 235, 255);
+  }
+
+  a:visited{
+    color: rgb(0, 0, 0);
+  }
+
+  button {
+    border-radius: 10px;
+    cursor:grab;
+  }
