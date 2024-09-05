@@ -13,6 +13,8 @@ body {
   height: 100vh;
   font-family: open sans;
   color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 
 }
 
@@ -32,7 +34,7 @@ article {
   background: #ffffff;
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.806) 40%, #d6d5d55b 100%);
   box-shadow: 0 0 20px 20px rgba(42, 37, 37, 0.452);
-  transition: .25s;
+  transition: 0.5s;
 }
 
 header {
@@ -67,6 +69,11 @@ button:focus {
 }
 button:focus svg {
   stroke: rgb(255, 255, 255);
+}
+
+button:hover {
+  background-color: #696969;
+  transition:1s;
 }
 
 svg {
